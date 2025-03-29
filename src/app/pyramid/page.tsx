@@ -8,9 +8,14 @@ export default function pyramid() {
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <Image src={'/img/pyramid.png'} alt="pyramid" fill={true}/>
       </div>
-
       <div>
-
+          <Link href="/dungeon">
+          <Image src={'/img/goback.png'}
+          alt="goback"
+          width={120}
+          height={100}
+          className="absolute top-[45%] left-[3%] -translate-x-1/2 -translate-y-1/2 z-[30]"/>
+          </Link>
       </div>
     </main>
   );

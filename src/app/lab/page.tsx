@@ -9,8 +9,14 @@ export default function lab() {
         <Image src={'/img/Lab.png'} alt="lab" fill={true}/>
       </div>
       <div>
-      
-      </div>
+          <Link href="/dungeon">
+          <Image src={'/img/goback.png'}
+            alt="goback"
+            width={120}
+            height={100}
+            className="absolute top-[45%] left-[3%] -translate-x-1/2 -translate-y-1/2 z-[30]"/>
+          </Link>
+       </div>
     </main>
   );
 }
