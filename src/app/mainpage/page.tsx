@@ -4,48 +4,48 @@ import Link from "next/link";
 export default function mainpage() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            //background
+            {/* background  */}
             <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
                 <Image 
                 src={'/img/UI_01.webp'} 
                 alt="mainmenu" 
                 fill={true}/>
             </div>
-            //coin
+            {/* coin  */}
             <div>
                 <Image src={'/img/Coin.png'} 
                 alt="coin" 
-                width={150} 
+                width={130} 
                 height={100} 
-                className="absolute top-[-1%] left-[82%] z-50 bg-transparent text-transparent"/>
+                className="absolute top-[-2%] left-[78.5%] z-50 bg-transparent text-transparent"/>
             </div>
-            //money
+            {/* money */}
             <div>
                 <Image  src={'/img/money.png'} 
                 alt="money" 
                 width={150} 
                 height={100} 
-                className="absolute top-[5.5%] left-[91%] -translate-x-1/2 -translate-y-1/2 z-[20]"/>
+                className="absolute top-[5.5%] left-[89.5%] -translate-x-1/2 -translate-y-1/2 z-[20]"/>
             </div>
-            //home menu
+            {/* home menu botton */}
             <div>
                 <Link href="/mainmenu">
-                    <Image src={'/img/homeBottom.png'} 
-                    alt="homebottom"
+                    <Image src={'/img/homeBotton.png'} 
+                    alt="homebotton"
                     width={150}
                     height={130}
-                    className="absolute top-[5.3%] left-[97%] -translate-x-1/2 -translate-y-1/2 z-[20]"/>
+                    className="absolute top-[5.3%] left-[96.5%] -translate-x-1/2 -translate-y-1/2 z-[20]"/>
                 </Link>
             </div>
-            //profile player
+            {/* profile player  */}
             <div>
                     <Image src={'/img/profile.png'} 
                     alt="profile"
-                    width={230}
+                    width={240}
                     height={170}
-                    className="absolute top-[6.5%] left-[7%] -translate-x-1/2 -translate-y-1/2 z-[20]"/>
+                    className="absolute top-[7.5%] left-[9%] -translate-x-1/2 -translate-y-1/2 z-[20]"/>
             </div>
-            //go to next page    
+             {/* go to next page  */}   
             <div>
                 <Link href="/dungeon">
                 <Image src={'/img/go.png'}
@@ -56,7 +56,7 @@ export default function mainpage() {
                 </Link>
             </div>
             
-            //shop
+            {/* shop  */}
             <div>
                 <Link 
                 href="/shop"
