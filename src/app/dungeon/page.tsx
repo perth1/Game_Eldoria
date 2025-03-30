@@ -72,7 +72,6 @@ export default function dungeon() {
             className="absolute text-8xl top-[75%] left-[60%] z-50 
             bg-transparent text-transparent">000000</Link>
             
-            
         </div>
         <div>
             <Link href="/mainpage">

@@ -64,7 +64,15 @@ export default function mainpage() {
                 z-[50] bg-transparent text-transparent"
                 >-SHOP-</Link>
             </div>
-
+            <div>
+                <Link href="/farm">
+                <Image src={'/img/gofarm.png'}
+                alt="gofarm"
+                width={200}
+                height={100}
+                className="absolute top-[51%] left-[10%] -translate-x-1/2 -translate-y-1/2 z-[50]"/>
+                </Link>
+            </div>
             
         </main>
     )
