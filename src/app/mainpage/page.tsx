@@ -56,10 +56,10 @@ export default function mainpage() {
                 </Link>
             </div>
             
-            {/* shop  */}
+            {/* home  */}
             <div>
                 <Link 
-                href="/shop"
+                href="/home"
                 className="absolute text-6xl top-[53%] left-[65.5%] 
                 z-[50] bg-transparent text-transparent"
                 >-SHOP-</Link>
